@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.game_text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 50px;
+}
+.game_text > button{
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: salmon;
+    border: none;
+    cursor: pointer;
+}
+.score{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+.playground > ul {
+    border : 1px solid #333;
+    width: 250px;
+    margin: 0px auto;
+}
+
+.playground>ul>li{
+    width:100%;
+    height: 25px;
+}
+.playground>ul>li>ul{
+    display: flex;
+}
+
+.playground>ul>li>ul>li{
+    width:25px;
+    height: 25px;
+    outline: solid 1px #ccc;
+}
+
+.tree{
+    background-color: green;
+}
+
+.square{
+    background-color: #353535;
+}
+
+.zee{
+    background-color: #35de;
+}
+
+.bar{
+    background-color: #661ddd;
+}
+
+.elLeft{
+    background-color: coral;
+}
+.elLight{
+    background-color: red;
+}
